@@ -13,7 +13,7 @@
 	<artifactId>discord</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>discord</name>
-	<description>Discord clone using spring boot</description>
+	<description>Discord clone using Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
@@ -37,19 +37,18 @@
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>2.9.2</version> <!-- Use the latest version -->
+			<version>3.0.0</version> <!-- Latest version -->
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.9.2</version> <!-- Use the latest version -->
+			<version>3.0.0</version> <!-- Latest version -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -60,5 +59,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
