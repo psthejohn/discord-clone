@@ -1,0 +1,28 @@
+# Version of the endpoint configuration YAML
+version: 0.1
+
+# List of endpoints to create
+endpoints:
+  # Endpoint for adding a user
+  - name: Add User
+    port: 8080
+    type: REST
+    networkVisibility: Project
+    context: /users/add
+    schemaFilePath: null
+
+  # Endpoint for finding a user by ID
+  - name: Find User By ID
+    port: 8080
+    type: REST
+    networkVisibility: Project
+    context: /users/find/{userId}
+    schemaFilePath: null
+
+  # Endpoint for listing all users
+  - name: List Users
+    port: 8080
+    type: REST
+    networkVisibility: Project
+    context: /users/all
+    schemaFilePath: null
